@@ -28,29 +28,21 @@ export default function VideoSection() {
             </p>
           </FadeIn>
 
-          {/* Video container — 9:16 vertical */}
+          {/* Video embed — 9:16 vertical */}
           <FadeIn delay={0.15}>
-            <div
-              className="relative overflow-hidden"
+            <iframe
+              src="https://www.youtube.com/embed/x2-Se19h80Y"
+              title="Miriam Campos — vídeo de apresentação"
+              width={300}
+              height={533}
               style={{
-                width: '100%',
-                maxWidth: '300px',
-                aspectRatio: '9 / 16',
+                border: 'none',
                 borderRadius: '16px 4px 16px 4px',
-                backgroundColor: '#2A2A2A',
-                border: '1px solid rgba(196,168,130,0.2)',
+                display: 'block',
               }}
-            >
-              {/* Video embed */}
-              <iframe
-                src="https://www.youtube.com/embed/x2-Se19h80Y"
-                title="Miriam Campos — vídeo de apresentação"
-                className="absolute inset-0 w-full h-full"
-                frameBorder={0}
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              />
-            </div>
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
           </FadeIn>
 
           {/* Post-video text */}
