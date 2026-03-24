@@ -41,31 +41,15 @@ export default function VideoSection() {
                 border: '1px solid rgba(196,168,130,0.2)',
               }}
             >
-              {/* Placeholder for video embed */}
-              <div
-                className="absolute inset-0 flex flex-col items-center justify-center gap-4"
-                style={{ color: '#C4A882' }}
-              >
-                <div
-                  className="flex items-center justify-center rounded-full"
-                  style={{
-                    width: '64px',
-                    height: '64px',
-                    border: '1.5px solid rgba(196,168,130,0.5)',
-                    backgroundColor: 'rgba(196,168,130,0.08)',
-                  }}
-                >
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="#C4A882">
-                    <path d="M8 5v14l11-7z"/>
-                  </svg>
-                </div>
-                <span
-                  className="eyebrow-ultra"
-                  style={{ color: '#C4A882', opacity: 0.5 }}
-                >
-                  vídeo da Miriam
-                </span>
-              </div>
+              {/* Video embed */}
+              <iframe
+                src="https://www.youtube.com/embed/x2-Se19h80Y"
+                title="Miriam Campos — vídeo de apresentação"
+                className="absolute inset-0 w-full h-full"
+                frameBorder={0}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
             </div>
           </FadeIn>
 
