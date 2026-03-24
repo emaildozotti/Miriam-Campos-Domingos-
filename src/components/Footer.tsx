@@ -81,19 +81,6 @@ export default function Footer() {
               </a>
             </FadeIn>
 
-            <FadeIn delay={0.35}>
-              <p
-                className="text-xs"
-                style={{
-                  fontFamily: 'var(--font-sans)',
-                  color: '#EBF0F7',
-                  fontWeight: 300,
-                  opacity: 0.35,
-                }}
-              >
-                +55 94 99150-6532
-              </p>
-            </FadeIn>
           </div>
         </div>
       </section>
