@@ -4,7 +4,7 @@ export default function VideoSection() {
   return (
     <section
       className="section-padding"
-      style={{ backgroundColor: '#3A3A3A' }}
+      style={{ backgroundColor: '#0D1117', backgroundImage: 'radial-gradient(rgba(74,127,212,0.07) 1px, transparent 1px)', backgroundSize: '24px 24px' }}
     >
       <div className="container-ultra">
         <div className="flex flex-col items-center gap-10 md:gap-12">

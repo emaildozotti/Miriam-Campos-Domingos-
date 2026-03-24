@@ -5,10 +5,10 @@ const WA_LINK = 'https://wa.me/5594991506532?text=Ol%C3%A1%2C%20Miriam!%20Vi%20s
 export default function Footer() {
   return (
     <footer
-      style={{ backgroundColor: '#2A2A2A' }}
+      style={{ backgroundColor: '#080C12', backgroundImage: 'radial-gradient(rgba(74,127,212,0.07) 1px, transparent 1px)', backgroundSize: '24px 24px' }}
     >
       {/* Final CTA section */}
-      <section className="section-padding-lg" style={{ backgroundColor: '#2A2A2A' }}>
+      <section className="section-padding-lg" style={{ backgroundColor: '#080C12', backgroundImage: 'radial-gradient(rgba(74,127,212,0.07) 1px, transparent 1px)', backgroundSize: '24px 24px' }}>
         <div className="container-ultra">
           <div className="flex flex-col items-center text-center gap-8">
 

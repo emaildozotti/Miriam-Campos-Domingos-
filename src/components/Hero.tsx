@@ -15,7 +15,7 @@ export default function Hero() {
   return (
     <section
       className="relative min-h-screen flex items-center overflow-hidden"
-      style={{ backgroundColor: '#2A2A2A' }}
+      style={{ backgroundColor: '#080C12', backgroundImage: 'radial-gradient(rgba(74,127,212,0.07) 1px, transparent 1px)', backgroundSize: '24px 24px' }}
     >
       {/* Aurora blobs */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden" aria-hidden="true">
