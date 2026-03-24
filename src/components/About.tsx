@@ -9,7 +9,7 @@ export default function About() {
   return (
     <section
       className="section-padding-lg"
-      style={{ backgroundColor: '#EDE7DC' }}
+      style={{ backgroundColor: '#EBF0F7' }}
     >
       <div className="container-ultra">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-start">
@@ -22,13 +22,13 @@ export default function About() {
                   style={{
                     width: '2px',
                     height: '40px',
-                    backgroundColor: '#C4A882',
+                    backgroundColor: '#4A7FD4',
                     opacity: 0.7,
                     flexShrink: 0,
                   }}
                   aria-hidden="true"
                 />
-                <span className="eyebrow-ultra" style={{ color: '#C4A882' }}>
+                <span className="eyebrow-ultra" style={{ color: '#4A7FD4' }}>
                   sobre mim
                 </span>
               </div>
@@ -45,7 +45,7 @@ export default function About() {
                 }}
               >
                 A Psicóloga Que{' '}
-                <em style={{ color: '#C4A882' }}>Nasceu Porto Seguro</em>
+                <em style={{ color: '#4A7FD4' }}>Nasceu Porto Seguro</em>
               </h2>
             </FadeIn>
 
@@ -70,7 +70,7 @@ export default function About() {
             <FadeIn delay={0.2}>
               <div
                 className="pl-5"
-                style={{ borderLeft: '2px solid rgba(196,168,130,0.5)' }}
+                style={{ borderLeft: '2px solid rgba(74,127,212,0.5)' }}
               >
                 <p
                   className="text-sm md:text-base leading-relaxed"
@@ -110,7 +110,7 @@ export default function About() {
             <FadeIn delay={0.3}>
               <div
                 className="pt-2 pb-4"
-                style={{ borderTop: '1px solid rgba(196,168,130,0.25)' }}
+                style={{ borderTop: '1px solid rgba(74,127,212,0.25)' }}
               >
                 <span
                   className="eyebrow-ultra"
@@ -179,7 +179,7 @@ export default function About() {
                       maxWidth: '100%',
                       height: '440px',
                       borderRadius: '16px 4px 16px 4px',
-                      background: 'linear-gradient(135deg, #C4A882 0%, #8B7355 100%)',
+                      background: 'linear-gradient(135deg, #4A7FD4 0%, #2D5FBF 100%)',
                       opacity: 0.3,
                     }}
                   />
@@ -189,7 +189,7 @@ export default function About() {
                   className="absolute -left-4 top-8 bottom-8"
                   style={{
                     width: '2px',
-                    backgroundColor: '#C4A882',
+                    backgroundColor: '#4A7FD4',
                     opacity: 0.4,
                   }}
                   aria-hidden="true"

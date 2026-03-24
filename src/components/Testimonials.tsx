@@ -33,7 +33,7 @@ export default function Testimonials() {
   return (
     <section
       className="section-padding-lg"
-      style={{ backgroundColor: '#FAF8F4' }}
+      style={{ backgroundColor: '#F4F7FC' }}
     >
       <div className="container-ultra">
         {/* Section header */}
@@ -43,13 +43,13 @@ export default function Testimonials() {
               style={{
                 width: '2px',
                 height: '40px',
-                backgroundColor: '#C4A882',
+                backgroundColor: '#4A7FD4',
                 opacity: 0.7,
                 flexShrink: 0,
               }}
               aria-hidden="true"
             />
-            <span className="eyebrow-ultra" style={{ color: '#C4A882' }}>
+            <span className="eyebrow-ultra" style={{ color: '#4A7FD4' }}>
               o que dizem
             </span>
           </div>
@@ -64,7 +64,7 @@ export default function Testimonials() {
                 fontFamily: 'var(--font-display)',
                 fontSize: '120px',
                 lineHeight: 1,
-                color: '#C4A882',
+                color: '#4A7FD4',
                 opacity: 0.2,
                 position: 'absolute',
                 top: '-20px',
@@ -115,7 +115,7 @@ export default function Testimonials() {
                 </p>
                 <span
                   className="eyebrow-ultra"
-                  style={{ color: '#C4A882', opacity: 0.7 }}
+                  style={{ color: '#4A7FD4', opacity: 0.7 }}
                 >
                   — {testimonials[current].name}
                 </span>
@@ -135,7 +135,7 @@ export default function Testimonials() {
                 style={{
                   width: i === current ? '28px' : '8px',
                   height: '2px',
-                  backgroundColor: '#C4A882',
+                  backgroundColor: '#4A7FD4',
                   opacity: i === current ? 1 : 0.3,
                   border: 'none',
                   padding: 0,

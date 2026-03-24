@@ -25,7 +25,7 @@ export default function Method() {
   return (
     <section
       className="section-padding-lg"
-      style={{ backgroundColor: '#FAF8F4' }}
+      style={{ backgroundColor: '#F4F7FC' }}
     >
       <div className="container-ultra">
         {/* Section header */}
@@ -35,13 +35,13 @@ export default function Method() {
               style={{
                 width: '2px',
                 height: '40px',
-                backgroundColor: '#C4A882',
+                backgroundColor: '#4A7FD4',
                 opacity: 0.7,
                 flexShrink: 0,
               }}
               aria-hidden="true"
             />
-            <span className="eyebrow-ultra" style={{ color: '#C4A882' }}>
+            <span className="eyebrow-ultra" style={{ color: '#4A7FD4' }}>
               abordagem
             </span>
           </div>
@@ -84,9 +84,9 @@ export default function Method() {
               <div
                 className="py-8 md:py-10"
                 style={{
-                  borderTop: '1px solid rgba(196,168,130,0.2)',
+                  borderTop: '1px solid rgba(74,127,212,0.2)',
                   ...(i === pillars.length - 1
-                    ? { borderBottom: '1px solid rgba(196,168,130,0.2)' }
+                    ? { borderBottom: '1px solid rgba(74,127,212,0.2)' }
                     : {}),
                 }}
               >
@@ -97,7 +97,7 @@ export default function Method() {
                       style={{
                         fontFamily: 'var(--font-display)',
                         fontSize: '13px',
-                        color: '#C4A882',
+                        color: '#4A7FD4',
                         opacity: 0.6,
                         paddingTop: '2px',
                         minWidth: '28px',
@@ -125,7 +125,7 @@ export default function Method() {
                               fontFamily: 'var(--font-sans)',
                               letterSpacing: '0.15em',
                               textTransform: 'uppercase',
-                              color: '#C4A882',
+                              color: '#4A7FD4',
                               fontStyle: 'normal',
                               verticalAlign: 'middle',
                               opacity: 0.8,
@@ -161,7 +161,7 @@ export default function Method() {
           <div
             className="mt-12 md:mt-14 p-6 md:p-8"
             style={{
-              backgroundColor: '#EDE7DC',
+              backgroundColor: '#EBF0F7',
               borderRadius: '4px 16px 4px 16px',
             }}
           >

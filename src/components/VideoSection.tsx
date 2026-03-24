@@ -15,7 +15,7 @@ export default function VideoSection() {
               className="text-base md:text-lg leading-relaxed text-center"
               style={{
                 fontFamily: 'var(--font-sans)',
-                color: '#EDE7DC',
+                color: '#EBF0F7',
                 fontWeight: 300,
                 maxWidth: '600px',
                 margin: '0 auto',
@@ -51,7 +51,7 @@ export default function VideoSection() {
               className="text-sm md:text-base text-center"
               style={{
                 fontFamily: 'var(--font-sans)',
-                color: '#EDE7DC',
+                color: '#EBF0F7',
                 fontWeight: 300,
                 opacity: 0.7,
                 maxWidth: '440px',

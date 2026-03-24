@@ -34,13 +34,13 @@ export default function HowItWorks() {
               style={{
                 width: '2px',
                 height: '40px',
-                backgroundColor: '#C4A882',
+                backgroundColor: '#4A7FD4',
                 opacity: 0.7,
                 flexShrink: 0,
               }}
               aria-hidden="true"
             />
-            <span className="eyebrow-ultra" style={{ color: '#C4A882' }}>
+            <span className="eyebrow-ultra" style={{ color: '#4A7FD4' }}>
               processo
             </span>
           </div>
@@ -67,9 +67,9 @@ export default function HowItWorks() {
               <div
                 className="py-8 md:py-10 flex flex-col md:flex-row gap-5 md:gap-10"
                 style={{
-                  borderTop: '1px solid rgba(196,168,130,0.15)',
+                  borderTop: '1px solid rgba(74,127,212,0.15)',
                   ...(i === steps.length - 1
-                    ? { borderBottom: '1px solid rgba(196,168,130,0.15)' }
+                    ? { borderBottom: '1px solid rgba(74,127,212,0.15)' }
                     : {}),
                 }}
               >
@@ -78,7 +78,7 @@ export default function HowItWorks() {
                     style={{
                       fontFamily: 'var(--font-display)',
                       fontSize: '13px',
-                      color: '#C4A882',
+                      color: '#4A7FD4',
                       opacity: 0.5,
                       paddingTop: '2px',
                       minWidth: '28px',
@@ -102,7 +102,7 @@ export default function HowItWorks() {
                   className="text-sm md:text-base leading-relaxed"
                   style={{
                     fontFamily: 'var(--font-sans)',
-                    color: '#EDE7DC',
+                    color: '#EBF0F7',
                     fontWeight: 300,
                     lineHeight: 1.85,
                     opacity: 0.8,
@@ -121,7 +121,7 @@ export default function HowItWorks() {
             className="mt-10 text-sm md:text-base"
             style={{
               fontFamily: 'var(--font-sans)',
-              color: '#EDE7DC',
+              color: '#EBF0F7',
               fontWeight: 300,
               opacity: 0.55,
               fontStyle: 'italic',
@@ -141,7 +141,7 @@ export default function HowItWorks() {
               rel="noopener noreferrer"
               className="btn-shimmer rounded-sm text-sm font-medium tracking-wide"
               style={{
-                backgroundColor: '#C4A882',
+                backgroundColor: '#4A7FD4',
                 color: '#2A2A2A',
                 fontFamily: 'var(--font-sans)',
                 fontWeight: 500,

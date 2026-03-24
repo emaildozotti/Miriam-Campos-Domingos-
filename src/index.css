@@ -6,17 +6,17 @@
 
   --color-primary:      #3A3A3A;
   --color-primary-dark: #2A2A2A;
-  --color-secondary:    #C4A882;
-  --color-bg-warm:      #EDE7DC;
-  --color-bg-light:     #FAF8F4;
+  --color-secondary:    #4A7FD4;
+  --color-bg-warm:      #EBF0F7;
+  --color-bg-light:     #F4F7FC;
   --color-text-main:    #1E1E1E;
   --color-off-white:    #F5F0E8;
 }
 
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb { background: #C4A882; border-radius: 3px; }
-* { scrollbar-width: thin; scrollbar-color: #C4A882 transparent; }
+::-webkit-scrollbar-thumb { background: #4A7FD4; border-radius: 3px; }
+* { scrollbar-width: thin; scrollbar-color: #4A7FD4 transparent; }
 
 @keyframes shimmer-sweep {
   0%   { transform: translateX(-150%) skewX(-20deg); }

@@ -24,7 +24,7 @@ export default function PainPoints() {
     <section
       id="dores"
       className="section-padding"
-      style={{ backgroundColor: '#FAF8F4' }}
+      style={{ backgroundColor: '#F4F7FC' }}
     >
       <div className="container-ultra">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
@@ -33,12 +33,12 @@ export default function PainPoints() {
               <div
                 className="flex gap-5 p-6 md:p-8 group transition-all duration-500"
                 style={{
-                  backgroundColor: '#EDE7DC',
+                  backgroundColor: '#EBF0F7',
                   borderRadius: '12px 4px 12px 4px',
                   border: '1px solid transparent',
                 }}
                 onMouseEnter={(e) => {
-                  (e.currentTarget as HTMLDivElement).style.borderColor = 'rgba(196,168,130,0.4)'
+                  (e.currentTarget as HTMLDivElement).style.borderColor = 'rgba(74,127,212,0.4)'
                 }}
                 onMouseLeave={(e) => {
                   (e.currentTarget as HTMLDivElement).style.borderColor = 'transparent'
@@ -47,7 +47,7 @@ export default function PainPoints() {
                 <span
                   className="shrink-0 eyebrow-ultra"
                   style={{
-                    color: '#C4A882',
+                    color: '#4A7FD4',
                     fontFamily: 'var(--font-display)',
                     fontSize: '13px',
                     paddingTop: '2px',
@@ -77,7 +77,7 @@ export default function PainPoints() {
               style={{
                 width: '2px',
                 height: '60px',
-                backgroundColor: '#C4A882',
+                backgroundColor: '#4A7FD4',
                 opacity: 0.7,
                 flexShrink: 0,
               }}

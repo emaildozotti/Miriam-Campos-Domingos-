@@ -33,7 +33,7 @@ export default function FAQ() {
   return (
     <section
       className="section-padding"
-      style={{ backgroundColor: '#EDE7DC' }}
+      style={{ backgroundColor: '#EBF0F7' }}
     >
       <div className="container-ultra">
         {/* Section header */}
@@ -43,13 +43,13 @@ export default function FAQ() {
               style={{
                 width: '2px',
                 height: '40px',
-                backgroundColor: '#C4A882',
+                backgroundColor: '#4A7FD4',
                 opacity: 0.7,
                 flexShrink: 0,
               }}
               aria-hidden="true"
             />
-            <span className="eyebrow-ultra" style={{ color: '#C4A882' }}>
+            <span className="eyebrow-ultra" style={{ color: '#4A7FD4' }}>
               dúvidas frequentes
             </span>
           </div>
@@ -112,7 +112,7 @@ export default function FAQ() {
                       height="18"
                       viewBox="0 0 24 24"
                       fill="none"
-                      stroke="#C4A882"
+                      stroke="#4A7FD4"
                       strokeWidth="1.5"
                       strokeLinecap="round"
                       strokeLinejoin="round"

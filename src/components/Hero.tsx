@@ -35,7 +35,7 @@ export default function Hero() {
           style={{
             width: '400px',
             height: '400px',
-            background: '#C4A88238',
+            background: '#4A7FD438',
             bottom: '10%',
             left: '10%',
             animation: 'aurora-2 22s ease-in-out infinite',
@@ -46,7 +46,7 @@ export default function Hero() {
           style={{
             width: '300px',
             height: '300px',
-            background: '#EDE7DC20',
+            background: '#EBF0F720',
             top: '40%',
             left: '35%',
             animation: 'aurora-3 15s ease-in-out infinite',
@@ -61,7 +61,7 @@ export default function Hero() {
         style={{
           width: '2px',
           height: '180px',
-          backgroundColor: '#C4A882',
+          backgroundColor: '#4A7FD4',
           opacity: 0.7,
         }}
       />
@@ -79,7 +79,7 @@ export default function Hero() {
             >
               <span
                 className="eyebrow-ultra"
-                style={{ color: '#C4A882', letterSpacing: '0.25em' }}
+                style={{ color: '#4A7FD4', letterSpacing: '0.25em' }}
               >
                 NO LIMITE INVISÍVEL
               </span>
@@ -98,7 +98,7 @@ export default function Hero() {
               }}
             >
               Funcionando por fora.{' '}
-              <em style={{ color: '#C4A882' }}>Esgotado por dentro.</em>
+              <em style={{ color: '#4A7FD4' }}>Esgotado por dentro.</em>
             </motion.h1>
 
             {/* Subtitle */}
@@ -109,7 +109,7 @@ export default function Hero() {
               className="text-lg md:text-xl leading-relaxed"
               style={{
                 fontFamily: 'var(--font-sans)',
-                color: '#EDE7DC',
+                color: '#EBF0F7',
                 fontWeight: 300,
                 maxWidth: '420px',
               }}
@@ -128,7 +128,7 @@ export default function Hero() {
                 onClick={scrollToDores}
                 className="btn-shimmer rounded-sm text-sm font-medium tracking-wide cursor-pointer"
                 style={{
-                  backgroundColor: '#C4A882',
+                  backgroundColor: '#4A7FD4',
                   color: '#2A2A2A',
                   fontFamily: 'var(--font-sans)',
                   fontWeight: 500,
@@ -142,7 +142,7 @@ export default function Hero() {
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 text-sm"
                 style={{
-                  color: '#EDE7DC',
+                  color: '#EBF0F7',
                   fontFamily: 'var(--font-sans)',
                   fontWeight: 400,
                   opacity: 0.7,
@@ -162,7 +162,7 @@ export default function Hero() {
               animate={{ opacity: 1 }}
               transition={{ duration: 1.2, delay: 0.6, ease: [0.16, 1, 0.3, 1] }}
               className="eyebrow-ultra"
-              style={{ color: '#C4A882', opacity: 0.6 }}
+              style={{ color: '#4A7FD4', opacity: 0.6 }}
             >
               Psicóloga Clínica | Especialista em TCC | Neuropsicologia Clínica
             </motion.p>
@@ -180,7 +180,7 @@ export default function Hero() {
               <div
                 className="absolute -inset-3 opacity-20"
                 style={{
-                  border: '1px solid #C4A882',
+                  border: '1px solid #4A7FD4',
                   borderRadius: '20px 6px 20px 6px',
                 }}
                 aria-hidden="true"
@@ -207,10 +207,10 @@ export default function Hero() {
                     height: '480px',
                     borderRadius: '16px 4px 16px 4px',
                     background: 'linear-gradient(135deg, #3A3A3A 0%, #4A4A4A 100%)',
-                    border: '1px solid rgba(196, 168, 130, 0.2)',
+                    border: '1px solid rgba(74, 127, 212, 0.2)',
                   }}
                 >
-                  <div className="text-center" style={{ color: '#C4A882', opacity: 0.5 }}>
+                  <div className="text-center" style={{ color: '#4A7FD4', opacity: 0.5 }}>
                     <div
                       style={{
                         fontFamily: 'var(--font-display)',
@@ -242,7 +242,7 @@ export default function Hero() {
                   width: '80px',
                   height: '80px',
                   borderRadius: '50%',
-                  background: 'radial-gradient(circle, rgba(196,168,130,0.3) 0%, transparent 70%)',
+                  background: 'radial-gradient(circle, rgba(74,127,212,0.3) 0%, transparent 70%)',
                 }}
                 aria-hidden="true"
               />
@@ -259,7 +259,7 @@ export default function Hero() {
         >
           <span
             className="eyebrow-ultra"
-            style={{ color: '#C4A882', opacity: 0.4 }}
+            style={{ color: '#4A7FD4', opacity: 0.4 }}
           >
             role para baixo
           </span>
@@ -267,7 +267,7 @@ export default function Hero() {
             animate={{ y: [0, 6, 0] }}
             transition={{ duration: 1.5, repeat: Infinity, ease: 'easeInOut' }}
           >
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C4A882" strokeWidth="1.5" opacity="0.4">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#4A7FD4" strokeWidth="1.5" opacity="0.4">
               <path d="M12 5v14M5 12l7 7 7-7" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
           </motion.div>

@@ -19,14 +19,14 @@ export default function Footer() {
                 position: 'absolute',
                 width: '400px',
                 height: '400px',
-                background: 'radial-gradient(circle, rgba(196,168,130,0.06) 0%, transparent 70%)',
+                background: 'radial-gradient(circle, rgba(74,127,212,0.06) 0%, transparent 70%)',
                 borderRadius: '50%',
                 pointerEvents: 'none',
               }}
             />
 
             <FadeIn>
-              <span className="eyebrow-ultra" style={{ color: '#C4A882', opacity: 0.6 }}>
+              <span className="eyebrow-ultra" style={{ color: '#4A7FD4', opacity: 0.6 }}>
                 próximo passo
               </span>
             </FadeIn>
@@ -44,7 +44,7 @@ export default function Footer() {
               >
                 Funcionou para todo mundo por muito tempo. Se o que leu aqui fez sentido, talvez
                 seja hora de{' '}
-                <em style={{ color: '#C4A882' }}>existir para si mesmo.</em>
+                <em style={{ color: '#4A7FD4' }}>existir para si mesmo.</em>
               </h2>
             </FadeIn>
 
@@ -53,7 +53,7 @@ export default function Footer() {
                 className="text-sm md:text-base"
                 style={{
                   fontFamily: 'var(--font-sans)',
-                  color: '#EDE7DC',
+                  color: '#EBF0F7',
                   fontWeight: 300,
                   opacity: 0.6,
                   maxWidth: '420px',
@@ -70,7 +70,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="btn-shimmer rounded-sm text-sm font-medium tracking-wide"
                 style={{
-                  backgroundColor: '#C4A882',
+                  backgroundColor: '#4A7FD4',
                   color: '#2A2A2A',
                   fontFamily: 'var(--font-sans)',
                   fontWeight: 500,
@@ -86,7 +86,7 @@ export default function Footer() {
                 className="text-xs"
                 style={{
                   fontFamily: 'var(--font-sans)',
-                  color: '#EDE7DC',
+                  color: '#EBF0F7',
                   fontWeight: 300,
                   opacity: 0.35,
                 }}
@@ -101,7 +101,7 @@ export default function Footer() {
       {/* Bottom bar */}
       <div
         style={{
-          borderTop: '1px solid rgba(196,168,130,0.1)',
+          borderTop: '1px solid rgba(74,127,212,0.1)',
           padding: '1.5rem 0',
         }}
       >
@@ -109,7 +109,7 @@ export default function Footer() {
           <span
             className="eyebrow-ultra"
             style={{
-              color: '#EDE7DC',
+              color: '#EBF0F7',
               opacity: 0.25,
             }}
           >
@@ -118,7 +118,7 @@ export default function Footer() {
           <span
             className="eyebrow-ultra"
             style={{
-              color: '#EDE7DC',
+              color: '#EBF0F7',
               opacity: 0.25,
             }}
           >
@@ -127,7 +127,7 @@ export default function Footer() {
           <span
             className="eyebrow-ultra"
             style={{
-              color: '#EDE7DC',
+              color: '#EBF0F7',
               opacity: 0.25,
             }}
           >
