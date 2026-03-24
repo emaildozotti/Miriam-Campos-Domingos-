@@ -9,6 +9,21 @@ export default function VideoSection() {
       <div className="container-ultra">
         <div className="flex flex-col items-center gap-10 md:gap-12">
 
+          {/* Headline */}
+          <FadeIn>
+            <h2
+              className="text-3xl md:text-4xl lg:text-5xl leading-tight text-center"
+              style={{
+                fontFamily: 'var(--font-display)',
+                color: '#F5F0E8',
+                fontWeight: 400,
+              }}
+            >
+              O padrão que{' '}
+              <em style={{ color: '#4A7FD4' }}>ninguém percebe.</em>
+            </h2>
+          </FadeIn>
+
           {/* Pre-video text */}
           <FadeIn>
             <p

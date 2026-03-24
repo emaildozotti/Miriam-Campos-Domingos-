@@ -27,6 +27,20 @@ export default function PainPoints() {
       style={{ backgroundColor: '#F4F7FC' }}
     >
       <div className="container-ultra">
+        <FadeIn>
+          <h2
+            className="text-3xl md:text-4xl lg:text-5xl leading-tight mb-12"
+            style={{
+              fontFamily: 'var(--font-display)',
+              color: '#1E1E1E',
+              fontWeight: 400,
+            }}
+          >
+            Você cuida de todo mundo.{' '}
+            <em style={{ color: '#4A7FD4' }}>Quem cuida de você?</em>
+          </h2>
+        </FadeIn>
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
           {pains.map((pain, i) => (
             <FadeIn key={pain.number} delay={i * 0.1}>
