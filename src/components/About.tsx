@@ -12,7 +12,7 @@ export default function About() {
       style={{ backgroundColor: '#EBF0F7' }}
     >
       <div className="container-ultra">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-start">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-stretch">
 
           {/* Copy — mobile: first */}
           <div className="flex flex-col gap-7 order-1 md:order-2">
@@ -44,8 +44,8 @@ export default function About() {
                   lineHeight: 1.2,
                 }}
               >
-                A Psicóloga Que{' '}
-                <em style={{ color: '#4A7FD4' }}>Nasceu Porto Seguro</em>
+                Sempre fui o porto.{' '}
+                <em style={{ color: '#4A7FD4' }}>Aprendi a ser o mapa.</em>
               </h2>
             </FadeIn>
 
@@ -156,28 +156,25 @@ export default function About() {
           </div>
 
           {/* Photo — mobile: second */}
-          <div className="flex justify-center md:justify-start order-2 md:order-1">
+          <div className="flex justify-center md:justify-start order-2 md:order-1 md:self-stretch">
             <FadeIn delay={0.1}>
-              <div className="relative">
+              <div className="relative w-full h-full" style={{ minHeight: '480px' }}>
                 {!imgError ? (
                   <img
                     src="/miriam-campos-about.jpg"
                     alt="Miriam Campos"
                     onError={() => setImgError(true)}
-                    className="object-cover"
+                    className="object-cover object-top w-full h-full"
                     style={{
-                      width: '100%',
-                      maxWidth: '340px',
-                      height: '440px',
                       borderRadius: '16px 4px 16px 4px',
                     }}
                   />
                 ) : (
                   <div
                     style={{
-                      width: '340px',
-                      maxWidth: '100%',
-                      height: '440px',
+                      width: '100%',
+                      height: '100%',
+                      minHeight: '480px',
                       borderRadius: '16px 4px 16px 4px',
                       background: 'linear-gradient(135deg, #4A7FD4 0%, #2D5FBF 100%)',
                       opacity: 0.3,
