@@ -164,7 +164,7 @@ export default function Hero() {
               className="eyebrow-ultra"
               style={{ color: '#4A7FD4', opacity: 0.6 }}
             >
-              Psicóloga Clínica | Especialista em TCC | Neuropsicologia Clínica
+              Psicóloga Clínica | Abordagem TCC | Pós em Avaliação Psicológica, Psicologia do Trânsito e Neuropsicologia
               <br />
               CRP 10/11909
             </motion.p>

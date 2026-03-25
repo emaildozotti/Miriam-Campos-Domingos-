@@ -129,6 +129,7 @@ export default function Footer() {
         style={{
           borderTop: '1px solid rgba(74,127,212,0.1)',
           padding: '1.5rem 0',
+          backgroundColor: '#0F1620',
         }}
       >
         <div className="container-ultra flex flex-col md:flex-row items-center justify-between gap-3">
