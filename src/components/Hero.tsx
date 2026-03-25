@@ -165,6 +165,8 @@ export default function Hero() {
               style={{ color: '#4A7FD4', opacity: 0.6 }}
             >
               Psicóloga Clínica | Especialista em TCC | Neuropsicologia Clínica
+              <br />
+              CRP 10/11909
             </motion.p>
           </div>
 

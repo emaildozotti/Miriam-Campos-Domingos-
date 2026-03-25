@@ -85,6 +85,45 @@ export default function Footer() {
         </div>
       </section>
 
+      {/* Info bar */}
+      <div
+        style={{
+          borderTop: '1px solid rgba(74,127,212,0.08)',
+          padding: '1.25rem 0',
+        }}
+      >
+        <div className="container-ultra flex flex-col items-center text-center gap-3">
+          <p
+            className="text-xs md:text-sm"
+            style={{
+              fontFamily: 'var(--font-sans)',
+              color: '#EBF0F7',
+              opacity: 0.4,
+              fontWeight: 300,
+              maxWidth: '600px',
+              lineHeight: 1.6,
+            }}
+          >
+            Horário de Suporte e Agendamento: Segunda a Sexta, 08h às 18h
+          </p>
+          <p
+            className="text-xs"
+            style={{
+              fontFamily: 'var(--font-sans)',
+              color: '#EBF0F7',
+              opacity: 0.3,
+              fontWeight: 300,
+              maxWidth: '600px',
+              lineHeight: 1.6,
+            }}
+          >
+            Este serviço não oferece atendimento de emergência ou plantão psicológico.
+            Em caso de crise suicida, surto ou risco à vida, procure o hospital mais
+            próximo ou ligue para o CVV (188).
+          </p>
+        </div>
+      </div>
+
       {/* Bottom bar */}
       <div
         style={{
@@ -109,7 +148,7 @@ export default function Footer() {
               opacity: 0.25,
             }}
           >
-            Psicóloga Clínica | CRP válido
+            Psicóloga Clínica | CRP 10/11909
           </span>
           <span
             className="eyebrow-ultra"
