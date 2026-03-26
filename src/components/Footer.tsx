@@ -140,7 +140,7 @@ export default function Footer() {
               opacity: 0.25,
             }}
           >
-            Miriam Campos de Lacerda Domingos
+            Miriam Campos Domingos de Lacerda
           </span>
           <span
             className="eyebrow-ultra"
